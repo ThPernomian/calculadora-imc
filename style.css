@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+main{
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin: 0.625rem;
+}
+
+.input {
+    width: 100%;
+}
+
+/* INPUTS */
+input[type=number], input[type=text] {
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* BOTOES */
+.botao {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#resultadoImc {
+    border: 1px solid #ccc;
+    width: 60px;
+}
+
+#aviso {
+    font-weight: bold;
+}
+
+#btnEnviar {
+    background: green;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.4rem;
+}
+
+#btnLimpar {
+    background: red;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.4rem;
+}
+
+/* DIV #resultado */
+#resultado {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+/* .pessoa sao paragrafos */
+.pessoa {
+    padding: 0.625rem;
+}
+.pessoa:nth-child(odd) {
+    background: #efefef;
+}
+.pessoa:nth-child(even) {
+    background: aquamarine;
+}
+
+
+
